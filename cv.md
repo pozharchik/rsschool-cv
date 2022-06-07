@@ -17,3 +17,13 @@ I am a second-year student at NSTU with a degree in nanoelectronics. Since there
 - JS (basic)
 - HTML&CSS
 - Photoshop
+
+# Education
+
+- **University:** Novosibirsk State Technical University, Electronics and nanoelectronics major
+- **Courses:** CS50 lectures
+
+# Languages
+
+- **English:** A2
+- **Deutsch:** B1
