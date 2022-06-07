@@ -11,19 +11,19 @@
 
 I am a second-year student at NSTU with a degree in nanoelectronics. Since there are very few vacancies for my specialty in the city, I decided to try to delve into web development, which interests me.
 
-# Skills
+## Skills
 
 - C
 - JS (basic)
 - HTML&CSS
 - Photoshop
 
-# Education
+## Education
 
 - **University:** Novosibirsk State Technical University, Electronics and nanoelectronics major
 - **Courses:** CS50 lectures
 
-# Languages
+## Languages
 
 - **English:** A2
 - **Deutsch:** B1
