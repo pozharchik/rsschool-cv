@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="photo">
+          <img
+            class="myPhoto"
+            src="/rsschool-cv/assets/img/MyPhoto.png"
+            alt="Dmitry Pozharnitzky"
+          />
+        </div>
+        <div class="profileName">
+          <h1>DMITRY POZHARNITZKY</h1>
+        </div>
+      </header>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#aboutMe" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#code" class="nav-link">Code</a>
+          </li>
+          <li class="nav-item">
+            <a href="#languages" class="nav-link">Languages</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <div class="container main-container">
+          <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+              <li><b>Adress:</b> Novosibirsk, Russia</li>
+              <li><b>Phone:</b> +7 961 846 9916</li>
+              <li><b>Email:</b> pozharnid@mail.ru</li>
+            </ul>
+          </section>
+          <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre>
+              int main(void)
+{
+	int n;
+	double a, s;
+	scanf_s("%lg", &a);
+	n = 1;
+	s = 1;
+	while (s <= a)
+	{
+		n++;
+		s += 1.0 / n;
+	}
+	printf(": %d\n", n);
+	system("pause");
+	return 0;
+}
+            </pre>
+          </section>
+          <section class="section" id="aboutMe">
+            <h2 class="section-title">About me</h2>
+            <p>
+              I am a second-year student at NSTU with a degree in
+              nanoelectronics. Since there are very few vacancies for my
+              specialty in the city, I decided to try to delve into web
+              development, which interests me.
+            </p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+              <li>C</li>
+              <li>JS (basic)</li>
+              <li>HTML&CSS</li>
+              <li>Photoshop</li>
+            </ul>
+          </section>
+          <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+              <li>
+                <b>University:</b> Novosibirsk State Technical University,
+                Electronics and nanoelectronics major
+              </li>
+              <li><b>Courses:</b> CS50 lectures, Hexlet: CSS, HTML</li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+              <li><b>English:</b> A2</li>
+              <li><b>Deutsch:</b> B1</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="yearGitHub">
+          <div>
+            <p class="year">© 2022</p>
+          </div>
+          <div class="gitHub">
+            <a href="https://github.com/pozharchik">
+              <img
+                src="/rsschool-cv/assets/img/gitHubLogo.png"
+                alt="GitHub"
+                style="height: 50px; width: 50px"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="rsschool">
+          <a href="https://rs.school/js/">
+            <img
+              src="/rsschool-cv/assets/img/rs_school_logo.png"
+              alt="rsschool"
+              style="height: 50px; width: 135px"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
